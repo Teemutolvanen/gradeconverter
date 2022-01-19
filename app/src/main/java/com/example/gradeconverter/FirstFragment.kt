@@ -33,9 +33,9 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonAUS.setOnClickListener { findNavController().navigate(R.id.action_FirstFragment_to_AUSFragment) }
-        binding.buttonUS.setOnClickListener {  }
-        binding.buttonFrench.setOnClickListener {  }
-        binding.buttonUIAA.setOnClickListener {  }
+        binding.buttonUS.setOnClickListener { findNavController().navigate(R.id.action_FirstFragment_to_USFragment) }
+        binding.buttonFrench.setOnClickListener { findNavController().navigate(R.id.action_FirstFragment_to_frenchFragment) }
+        binding.buttonUIAA.setOnClickListener { findNavController().navigate(R.id.action_FirstFragment_to_UIIAFragment) }
 
 //        binding.buttonFirst.setOnClickListener {
 //            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)

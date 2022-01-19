@@ -7,14 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
-import com.example.gradeconverter.databinding.FragmentSecondBinding
+import com.example.gradeconverter.databinding.FragmentAusBinding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
 class AUSFragment : Fragment() {
 
-    private var _binding: FragmentSecondBinding? = null
+    private var _binding: FragmentAusBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +25,7 @@ class AUSFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentAusBinding.inflate(inflater, container, false)
         return binding.root
 
     }

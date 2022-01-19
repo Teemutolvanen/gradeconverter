@@ -14,9 +14,42 @@
             android:id="@+id/action_FirstFragment_to_AUSFragment"
             app:destination="@id/AUSFragment"
             app:popUpTo="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_frenchFragment"
+            app:destination="@id/frenchFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_USFragment"
+            app:destination="@id/USFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_UIIAFragment"
+            app:destination="@id/UIIAFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/AUSFragment"
         android:name="com.example.gradeconverter.AUSFragment"
         android:label="AUSFragment" />
+    <fragment
+        android:id="@+id/frenchFragment"
+        android:name="com.example.gradeconverter.FrenchFragment"
+        android:label="FrenchFragment" />
+    <fragment
+        android:id="@+id/USFragment"
+        android:name="com.example.gradeconverter.USFragment"
+        android:label="USFragment" />
+    <fragment
+        android:id="@+id/UIIAFragment"
+        android:name="com.example.gradeconverter.UIIAFragment"
+        android:label="UIIAFragment" />
 </navigation>
